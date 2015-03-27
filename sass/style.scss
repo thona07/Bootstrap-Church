@@ -29,7 +29,7 @@ h2 {
 	color: #789f90;
 	font-size: 2em;
 	margin: 0;
-	text-align: center;
+	text-align: left;
 	text-transform: uppercase;
 	padding-top: 30px;
 }
@@ -43,8 +43,9 @@ p {
 	font-size: 1.5em;
 	line-height: 1.5;
 	text-align: left;
+	margin: 0;
 }
-.img {
+img {
 	width: 100%;
 }
 .container {
@@ -120,4 +121,26 @@ nav ul {
 .hero span {
 	color: #fff;
 	font-size: 1.5em;
+}
+.row {
+	margin: 0;
+}
+.col-left {
+	text-align: center;
+}
+.col-left p {
+	padding-bottom: 30px;
+}
+.col-right {
+	padding-top: 30px;
+}
+.more {
+	background: #789f90;
+	border-radius: 5px;
+	padding: 15px 20px;
+	color: #fff;
+	display: inline-block;
+	font-family: "museo-sans-rounded",sans-serif;
+	font-size: 1em;
+	text-transform: uppercase;
 }

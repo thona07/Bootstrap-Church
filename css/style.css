@@ -425,7 +425,7 @@ h2 {
   color: #789f90;
   font-size: 2em;
   margin: 0;
-  text-align: center;
+  text-align: left;
   text-transform: uppercase;
   padding-top: 30px; }
 
@@ -440,34 +440,35 @@ h3 {
 p {
   font-size: 1.5em;
   line-height: 1.5;
-  text-align: left; }
+  text-align: left;
+  margin: 0; }
 
-/* line 47, ../sass/style.scss */
-.img {
+/* line 48, ../sass/style.scss */
+img {
   width: 100%; }
 
-/* line 50, ../sass/style.scss */
+/* line 51, ../sass/style.scss */
 .container {
   padding: 0 15px; }
 
-/* line 53, ../sass/style.scss */
+/* line 54, ../sass/style.scss */
 .container:nth-child(2), .container:nth-child(4), .container:nth-child(6) {
   padding: 0; }
 
-/* line 56, ../sass/style.scss */
+/* line 57, ../sass/style.scss */
 .container:nth-child(8) {
   background: #789f90; }
 
-/* line 59, ../sass/style.scss */
+/* line 60, ../sass/style.scss */
 .container:nth-child(9) {
   padding: 0; }
 
-/* line 62, ../sass/style.scss */
+/* line 63, ../sass/style.scss */
 .footer {
   background: #343836;
   padding: 0 15px; }
 
-/* line 66, ../sass/style.scss */
+/* line 67, ../sass/style.scss */
 .logo {
   background: url(../images/logo.png) no-repeat;
   background-size: 46px 46px;
@@ -480,7 +481,7 @@ p {
   width: 46px;
   height: 46px; }
 
-/* line 78, ../sass/style.scss */
+/* line 79, ../sass/style.scss */
 nav {
   background: #fff;
   box-shadow: 1px 2px 4px #ccc;
@@ -488,7 +489,7 @@ nav {
   position: fixed;
   width: 100%; }
 
-/* line 85, ../sass/style.scss */
+/* line 86, ../sass/style.scss */
 nav ul {
   background: #fff;
   display: none;
@@ -498,7 +499,7 @@ nav ul {
   list-style: none;
   width: 100%; }
 
-/* line 94, ../sass/style.scss */
+/* line 95, ../sass/style.scss */
 .menu {
   border-radius: 4px;
   background: #eee;
@@ -508,7 +509,7 @@ nav ul {
   right: 30px;
   width: 40px; }
 
-/* line 103, ../sass/style.scss */
+/* line 104, ../sass/style.scss */
 .menu span {
   background: #789f90;
   display: block;
@@ -516,11 +517,11 @@ nav ul {
   height: 3px;
   width: 18px; }
 
-/* line 110, ../sass/style.scss */
+/* line 111, ../sass/style.scss */
 .menu span:last-child {
   margin-bottom: 0; }
 
-/* line 113, ../sass/style.scss */
+/* line 114, ../sass/style.scss */
 .hero {
   background: url(../images/hero.jpg) no-repeat;
   background-size: cover;
@@ -528,7 +529,34 @@ nav ul {
   padding: 40px 15px;
   text-align: center; }
 
-/* line 120, ../sass/style.scss */
+/* line 121, ../sass/style.scss */
 .hero span {
   color: #fff;
   font-size: 1.5em; }
+
+/* line 125, ../sass/style.scss */
+.row {
+  margin: 0; }
+
+/* line 128, ../sass/style.scss */
+.col-left {
+  text-align: center; }
+
+/* line 131, ../sass/style.scss */
+.col-left p {
+  padding-bottom: 30px; }
+
+/* line 134, ../sass/style.scss */
+.col-right {
+  padding-top: 30px; }
+
+/* line 137, ../sass/style.scss */
+.more {
+  background: #789f90;
+  border-radius: 5px;
+  padding: 15px 20px;
+  color: #fff;
+  display: inline-block;
+  font-family: "museo-sans-rounded",sans-serif;
+  font-size: 1em;
+  text-transform: uppercase; }
