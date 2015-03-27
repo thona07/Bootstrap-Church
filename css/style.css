@@ -548,9 +548,10 @@ nav ul {
 
 /* line 134, ../sass/style.scss */
 .col-right {
-  padding-top: 30px; }
+  padding-top: 30px;
+  padding-bottom: 30px; }
 
-/* line 137, ../sass/style.scss */
+/* line 138, ../sass/style.scss */
 .more {
   background: #789f90;
   border-radius: 5px;
@@ -561,9 +562,23 @@ nav ul {
   font-size: 1em;
   text-transform: uppercase; }
 
-/* line 147, ../sass/style.scss */
+/* line 148, ../sass/style.scss */
 .worship {
   background: url(../images/worship.jpg) no-repeat;
   background-size: cover;
   padding: 45px 15px;
   text-align: center; }
+
+/* line 154, ../sass/style.scss */
+.worship h2 {
+  color: #fff;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 2.5em; }
+
+/* line 160, ../sass/style.scss */
+.worship span {
+  color: #fff;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  display: block; }
