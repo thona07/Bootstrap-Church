@@ -527,3 +527,8 @@ nav ul {
   margin-top: 66px;
   padding: 40px 15px;
   text-align: center; }
+
+/* line 120, ../sass/style.scss */
+.hero span {
+  color: #fff;
+  font-size: 1.5em; }
