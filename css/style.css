@@ -479,3 +479,21 @@ p {
   margin: 10px 0 10px 15px;
   width: 46px;
   height: 46px; }
+
+/* line 78, ../sass/style.scss */
+nav {
+  background: #fff;
+  box-shadow: 1px 2px 4px #ccc;
+  top: 0;
+  position: fixed;
+  width: 100%; }
+
+/* line 85, ../sass/style.scss */
+nav ul {
+  background: #fff;
+  display: none;
+  margin: 0;
+  top: 66px;
+  padding: 0;
+  list-style: none;
+  width: 100%; }

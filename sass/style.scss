@@ -75,3 +75,19 @@ p {
 	width: 46px;
 	height: 46px;
 }
+nav {
+	background: #fff;
+	box-shadow: 1px 2px 4px #ccc;
+	top: 0;
+	position: fixed;
+	width: 100%;
+}
+nav ul {
+	background: #fff;
+	display: none;
+	margin: 0;
+	top: 66px;
+	padding: 0;
+	list-style: none;
+	width: 100%;
+}
