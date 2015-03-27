@@ -560,3 +560,10 @@ nav ul {
   font-family: "museo-sans-rounded",sans-serif;
   font-size: 1em;
   text-transform: uppercase; }
+
+/* line 147, ../sass/style.scss */
+.worship {
+  background: url(../images/worship.jpg) no-repeat;
+  background-size: cover;
+  padding: 45px 15px;
+  text-align: center; }
