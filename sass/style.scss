@@ -11,7 +11,7 @@
 @import 'normalize';
 
 body {
-	color: $colorBlue;
+	color: #343836;
 	font-family: "museo-slab", serif;
 	font-size: 14px;
 	margin: 0;
@@ -20,6 +20,58 @@ h1 ,h2, h3 {
 	font-family: "museo-sans-rounded",sans-serif;
 }
 h1 {
-	color: #ccc;
+	color: #fff;
 	font-size: 2.5em;
+	margin: 0;
+	padding: 0 0 10px 0;
+}
+h2 {
+	color: #789f90;
+	font-size: 2em;
+	margin: 0;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 30px;
+}
+h3 {
+	color: #789f90;
+	font-size: 1.5em;
+	margin: 0;
+	padding-top: 30px;
+}
+p {
+	font-size: 1.5em;
+	line-height: 1.5;
+	text-align: left;
+}
+.img {
+	width: 100%;
+}
+.container {
+	padding: 0 15px;
+}
+.container:nth-child( 4 ), .container:nth-child( 6 ) {
+	padding: 0;
+}
+.container:nth-child( 8 ) {
+	background: #789f90;
+}
+.container:nth-child( 9 ) {
+	padding: 0;
+}
+.footer {
+	background: #343836;
+	padding: 0 15px;
+}
+.logo {
+	background: url(../images/logo.png) no-repeat;
+	background-size: 46px 46px;
+	background-size: 46px 46px;
+	display: block;
+	float: left;
+	text-decoration: none;
+	text-indent: -9999px;
+	margin: 10px 0 10px 15px;
+	width: 46px;
+	height: 46px;
 }
