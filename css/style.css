@@ -507,3 +507,15 @@ nav ul {
   padding: 10px;
   right: 30px;
   width: 40px; }
+
+/* line 103, ../sass/style.scss */
+.menu span {
+  background: #789f90;
+  display: block;
+  margin-bottom: 3px;
+  height: 3px;
+  width: 18px; }
+
+/* line 110, ../sass/style.scss */
+.menu span:last-child {
+  margin-bottom: 0; }
