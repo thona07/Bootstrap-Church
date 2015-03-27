@@ -1,0 +1,25 @@
+/**
+* Project Name		: Test Bootstrap Church
+* Date				: 26-March-2015
+* Developer			: Euk Thona
+* Developer URL		: http://glean.net
+*/
+
+//@import "bootstrap-compass";
+//@import "bootstrap-variables";
+//@import "bootstrap";
+@import 'normalize';
+
+body {
+	color: $colorBlue;
+	font-family: "museo-slab", serif;
+	font-size: 14px;
+	margin: 0;
+}
+h1 ,h2, h3 {
+	font-family: "museo-sans-rounded",sans-serif;
+}
+h1 {
+	color: #ccc;
+	font-size: 2.5em;
+}
