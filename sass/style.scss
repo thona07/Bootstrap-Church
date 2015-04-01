@@ -35,7 +35,7 @@ h2 {
 }
 h3 {
 	color: #789f90;
-	font-size: 1.5em;
+	font-size: 2em;
 	margin: 0;
 	padding-top: 30px;
 }
@@ -89,8 +89,19 @@ nav ul {
 	margin: 0;
 	top: 66px;
 	padding: 0;
+	position: absolute;
 	list-style: none;
 	width: 100%;
+}
+nav ul a {
+	color: #789f90;
+	display: block;
+	padding: 15px 15px;
+	text-decoration: none;
+}
+nav ul a:hover {
+	background: #789f90;
+	color: #fff;
 }
 .menu {
 	border-radius: 4px;
@@ -100,6 +111,12 @@ nav ul {
 	padding: 10px;
 	right: 30px;
 	width: 40px;
+}
+.menu:hover {
+	background: #789f90;
+}
+.menu:hover span{
+	background: #fff;
 }
 .menu span {
 	background: #789f90;
@@ -163,4 +180,123 @@ nav ul {
 	line-height: 1.5em;
 	display: block;
 }
-
+.gallery {
+	text-align: center;
+}
+.gallery h2 {
+	padding-bottom: 10px;
+}
+.gallery span {
+	font-size: 1.5em;
+	display: block;
+	text-align: left;
+	padding-bottom: 30px;
+}
+.gallery ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.gallery ul li a {
+	color: #789f90;
+	display: block;
+	font-size: 2em;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.mission {
+	background: url(../images/metion-event.jpg) no-repeat;
+	background-size: cover;
+	margin-top: 30px;
+	padding: 40px 15px;
+	display: block;
+	text-align: center;
+}
+.mission h2 {
+	color: #fff;
+	font-size: 2.5em;
+	padding-bottom: 10px;
+	text-align: center;
+}
+.mission span {
+	color: #fff;
+	font-size: 1.5em;
+}
+.courses {
+	text-align: center;
+}
+.courses h2 {
+	padding-bottom: 10px;
+}
+.courses span {
+	font-size: 1.5em;
+	padding-bottom: 30px;
+	display: block;
+}
+.courses h3 {
+	padding-bottom: 10px;
+}
+.courses p {
+	padding-bottom: 30px;
+}
+.latest-posts {
+	text-align:left;
+}
+.latest-posts h2 {
+	color: #fff;
+	padding-bottom: 30px;
+}
+.latest-posts h3 a {
+	color: #fff;
+	display: block;
+	padding-bottom: 10px;
+}
+.latest-posts span {
+	color: #fff;
+	font-size: 1em;
+	padding-bottom: 10px;
+}
+.latest-posts p {
+	padding-bottom: 30px;
+}
+.address {
+	padding-top: 30px;
+}
+.address p {
+	color: #789f90;
+	font-family: "museo-sans-rounded",sans-serif;
+	text-align: center;
+}
+.address p a {
+	color: #789f90;
+	text-decoration: underline;
+}
+.social ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.social-media ul li {
+	display: inline-block;
+	margin-right: 10px;
+}
+.social-media ul li a {
+	text-indent: -9999px;
+	display: block;
+	width: 52px;
+	height: 52px;
+}
+.social-media {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.social-media ul li.facebook a {
+	background: url(../images/facebook.jpg) no-repeat 0 0;
+}
+.social-media ul li.twitter a{
+	background: url(../images/twt.jpg) no-repeat 0 0;
+}
+.social-media ul li.instagram a{
+	background: url(../images/Instagram.jpg) no-repeat 0 0;
+}
