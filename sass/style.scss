@@ -89,8 +89,19 @@ nav ul {
 	margin: 0;
 	top: 66px;
 	padding: 0;
+	position: absolute;
 	list-style: none;
 	width: 100%;
+}
+nav ul a {
+	color: #789f90;
+	display: block;
+	padding: 15px 15px;
+	text-decoration: none;
+}
+nav ul a:hover {
+	background: #789f90;
+	color: #fff;
 }
 .menu {
 	border-radius: 4px;
@@ -100,6 +111,12 @@ nav ul {
 	padding: 10px;
 	right: 30px;
 	width: 40px;
+}
+.menu:hover {
+	background: #789f90;
+}
+.menu:hover span{
+	background: #fff;
 }
 .menu span {
 	background: #789f90;
@@ -133,6 +150,7 @@ nav ul {
 }
 .col-right {
 	padding-top: 30px;
+	padding-bottom: 30px;
 }
 .more {
 	background: #789f90;
@@ -148,5 +166,8 @@ nav ul {
 	background: url(../images/worship.jpg) no-repeat;
 	background-size: cover;
 	padding: 45px 15px;
+	text-align: center;
+}
+.gallery {
 	text-align: center;
 }

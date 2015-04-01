@@ -496,10 +496,23 @@ nav ul {
   margin: 0;
   top: 66px;
   padding: 0;
+  position: absolute;
   list-style: none;
   width: 100%; }
 
-/* line 95, ../sass/style.scss */
+/* line 96, ../sass/style.scss */
+nav ul a {
+  color: #789f90;
+  display: block;
+  padding: 15px 15px;
+  text-decoration: none; }
+
+/* line 102, ../sass/style.scss */
+nav ul a:hover {
+  background: #789f90;
+  color: #fff; }
+
+/* line 106, ../sass/style.scss */
 .menu {
   border-radius: 4px;
   background: #eee;
@@ -509,7 +522,15 @@ nav ul {
   right: 30px;
   width: 40px; }
 
-/* line 104, ../sass/style.scss */
+/* line 115, ../sass/style.scss */
+.menu:hover {
+  background: #789f90; }
+
+/* line 118, ../sass/style.scss */
+.menu:hover span {
+  background: #fff; }
+
+/* line 121, ../sass/style.scss */
 .menu span {
   background: #789f90;
   display: block;
@@ -517,11 +538,11 @@ nav ul {
   height: 3px;
   width: 18px; }
 
-/* line 111, ../sass/style.scss */
+/* line 128, ../sass/style.scss */
 .menu span:last-child {
   margin-bottom: 0; }
 
-/* line 114, ../sass/style.scss */
+/* line 131, ../sass/style.scss */
 .hero {
   background: url(../images/hero.jpg) no-repeat;
   background-size: cover;
@@ -529,28 +550,29 @@ nav ul {
   padding: 40px 15px;
   text-align: center; }
 
-/* line 121, ../sass/style.scss */
+/* line 138, ../sass/style.scss */
 .hero span {
   color: #fff;
   font-size: 1.5em; }
 
-/* line 125, ../sass/style.scss */
+/* line 142, ../sass/style.scss */
 .row {
   margin: 0; }
 
-/* line 128, ../sass/style.scss */
+/* line 145, ../sass/style.scss */
 .col-left {
   text-align: center; }
 
-/* line 131, ../sass/style.scss */
+/* line 148, ../sass/style.scss */
 .col-left p {
   padding-bottom: 30px; }
 
-/* line 134, ../sass/style.scss */
+/* line 151, ../sass/style.scss */
 .col-right {
-  padding-top: 30px; }
+  padding-top: 30px;
+  padding-bottom: 30px; }
 
-/* line 137, ../sass/style.scss */
+/* line 155, ../sass/style.scss */
 .more {
   background: #789f90;
   border-radius: 5px;
@@ -561,9 +583,13 @@ nav ul {
   font-size: 1em;
   text-transform: uppercase; }
 
-/* line 147, ../sass/style.scss */
+/* line 165, ../sass/style.scss */
 .worship {
   background: url(../images/worship.jpg) no-repeat;
   background-size: cover;
   padding: 45px 15px;
+  text-align: center; }
+
+/* line 171, ../sass/style.scss */
+.gallery {
   text-align: center; }
