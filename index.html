@@ -5,7 +5,6 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Test Bootstrap Church</title>
-		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
 		
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -51,12 +50,12 @@
 		<div class="row clearfix">
 			<h2>Lorem ipsum dolor sit amet, </h2>
 			
-			<div class="col-left">
+			<div class="col-left col-md-3">
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				
 				<a href="#" class="more">Read More</a>
 			</div>
-			<div class="col-right">
+			<div class="col-right col-md-3">
 				<img src="images/map.jpg" alt="" />
 			</div>
 		</div>
@@ -78,14 +77,32 @@
 				<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</span>
 				
 				<div class="gallery-wrapper">
-					<ul class="clearfix">
-						<li class="col-md-4"><img src="images/gal-1.jpg" alt="" /><a href="#">Lorem ipsum dolor sit</a></li>
-						<li class="col-md-4"><img src="images/gal-2.jpg" alt="" /><a href="#">Lorem ipsum dolor sit</a></li>
-						<li class="col-md-4"><img src="images/gal-3.jpg" alt="" /><a href="#">Lorem ipsum dolor sit</a></li>
-						<li class="col-md-4"><img src="images/gal-1.jpg" alt="" /><a href="#">Lorem ipsum dolor sit</a></li>
-						<li class="col-md-4"><img src="images/gal-2.jpg" alt="" /><a href="#">Lorem ipsum dolor sit</a></li>
-						<li class="col-md-4"><img src="images/gal-3.jpg" alt="" /><a href="#">Lorem ipsum dolor sit</a></li>
-					</ul>
+					<div class="row clearfix">
+						<div class= "col-md-4">
+							<img src="images/gal-1.jpg" alt="" />
+							<a href="#">Lorem ipsum dolor sit</a>
+						</div>
+						<div class="col-md-4">
+							<img src="images/gal-2.jpg" alt="" />
+							<a href="#">Lorem ipsum dolor sit</a>
+						</div>
+						<div class="col-md-4">
+							<img src="images/gal-3.jpg" alt="" />
+							<a href="#">Lorem ipsum dolor sit</a>
+						</div>
+						<div class="col-md-4">
+							<img src="images/gal-1.jpg" alt="" />
+							<a href="#">Lorem ipsum dolor sit</a>
+						</div>
+						<div class="col-md-4">
+							<img src="images/gal-2.jpg" alt="" />
+							<a href="#">Lorem ipsum dolor sit</a>
+						</div>
+						<div class="col-md-4">
+							<img src="images/gal-3.jpg" alt="" />
+							<a href="#">Lorem ipsum dolor sit</a>
+						</div>
+					</div>
 				</div>
 				
 				<a href="#" class="more">See More</a>
@@ -109,17 +126,17 @@
 				<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. aute</span>
 				
 				<div class="course-wrapper clearfix">
-					<div class="course">
+					<div class="course col-md-4">
 						<img src="images/gal-1.jpg" alt="" />
 						<h3>Lorem ipsum dolor sit </h3>
 						<p>Lorem ipsum dolor sit, Lorem ipsum dolor sit , Lorem ipsum dolor sit</p>
 					</div>
-					<div class="course">
+					<div class="course col-md-4">
 						<img src="images/gal-2.jpg" alt="" />
 						<h3>Lorem ipsum dolor sit </h3>
 						<p>Lorem ipsum dolor sit, Lorem ipsum dolor sit , Lorem ipsum dolor sit</p>
 					</div>
-					<div class="course">
+					<div class="course col-md-4">
 						<img src="images/gal-3.jpg" alt="" />
 						<h3>Lorem ipsum dolor sit </h3>
 						<p>Lorem ipsum dolor sit, Lorem ipsum dolor sit , Lorem ipsum dolor sit</p>
@@ -131,9 +148,9 @@
 	
 	<div class="container">
 		<div class="row">
-			<div class="latest-posts clearfix">
+			<div class="latest-posts clearfix ">
 				<h2>The Latest Posts</h2>
-				<div class="post">
+				<div class="post col-md-3">
 					<img src="images/post-1.jpg" alt="" />
 					
 					<div class="content">
@@ -142,7 +159,7 @@
 						<p>aLorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, nsect?ad ipisicing elit, sed do</p>
 					</div>
 				</div>
-				<div class="post">
+				<div class="post col-md-3">
 					<img src="images/post-2.jpg" alt="" />
 					
 					<div class="content">
@@ -151,7 +168,7 @@
 						<p>aLorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, nsect?ad ipisicing elit, sed do</p>
 					</div>
 				</div>
-				<div class="post">
+				<div class="post col-md-3">
 					<img src="images/post-3.jpg" alt="" />
 					
 					<div class="content">
@@ -160,7 +177,7 @@
 						<p>aLorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, nsect?ad ipisicing elit, sed do</p>
 					</div>
 				</div>
-				<div class="post">
+				<div class="post col-md-3">
 					<img src="images/gal-3.jpg" alt="" />
 					
 					<div class="content">
@@ -181,11 +198,17 @@
 					<p>Email: <a href="mailto:gcfchurch@gmail.com">gcfchurch@gmail.com</a></p>
 				</div>
 				<div class="social-media">
-					<ul class="clearfix">
-						<li class="facebook"><a href="#">Facebook</a></li>
-						<li class="twitter"><a href="#">Twitter</a></li>
-						<li class="instagram"><a href="#">Instagram</a></li>
-					</ul>
+					<div class="row clearfix">
+						<div class="clearfix">
+							<img src="images/facebook.jpg" alt="" />
+						</div>
+						<div class="clearfix">
+							<img src="images/twt.jpg" alt="" />
+						</div>
+						<div class="clearfix">
+							<img src="images/Instagram.jpg" alt="" />
+						</div>
+					</div>
 				</div>
 			</div>
 		</footer>
