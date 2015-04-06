@@ -121,12 +121,13 @@ nav ul a:hover {
 	color: #fff;
 }
 .menu {
+	cursor: pointer;
 	border-radius: 4px;
 	background: #789f90;
 	top: 15px;
 	position: absolute;
 	padding: 10px;
-	right: 30px;
+	right: 15px;
 	width: 40px;
 }
 .menu:hover {
@@ -161,9 +162,11 @@ nav ul a:hover {
 }
 .col-left {
 	text-align: center;
+	padding: 0;
 }
 .col-left p {
 	padding-bottom: 30px;
+	padding-top: 10px;
 }
 .col-right {
 	padding-top: 30px;
@@ -179,8 +182,8 @@ nav ul a:hover {
 	font-size: 1em;
 	text-transform: uppercase;
 }
-.col-left p {
-	padding-top: 10px;
+.more a:hover {
+	color: red;
 }
 .worship {
 	background: url(../images/worship.jpg) no-repeat;
@@ -206,12 +209,14 @@ nav ul a:hover {
 	text-align: center;
 }
 .gallery h2 {
+	padding-top: 30px;
 	text-align: center;
 	padding-bottom: 10px;
 	display: none;
 }
 .gallery span {
 	font-size: 1.5em;
+	padding-top: 30px;
 	display: block;
 	text-align: left;
 	padding-bottom: 30px;
@@ -460,6 +465,9 @@ nav ul a:hover {
 		float: left;
 		width: 50%;
 	}
+	.social-media {
+		padding-right: 10px;
+	}
 	.latest-posts div .content {
 		width: 100%;
 	}
@@ -468,6 +476,7 @@ nav ul a:hover {
 	}
 	.address {
 		padding-top: 60px;
+		padding-left: 15px;
 	}
 }
 
