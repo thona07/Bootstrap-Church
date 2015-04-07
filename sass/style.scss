@@ -103,7 +103,7 @@ nav ul {
 	background: #fff;
 	display: none;
 	margin: 0;
-	top: 66px;
+	top: 67px;
 	padding: 0;
 	position: absolute;
 	list-style: none;
@@ -414,6 +414,9 @@ nav ul a:hover {
 		background-size: 55px 55px;
 		width: 55px;
 		height: 55px;
+	}
+	nav ul {
+		top: 76px;
 	}
 	nav ul a {
 		padding: 23px 15px;
