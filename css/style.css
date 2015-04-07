@@ -7625,7 +7625,7 @@ nav ul a:hover {
 /* line 163, ../sass/style.scss */
 .col-left {
   text-align: center;
-  padding: 0; }
+  padding-right: 7px; }
 
 /* line 167, ../sass/style.scss */
 .col-left p {
@@ -7635,9 +7635,11 @@ nav ul a:hover {
 /* line 171, ../sass/style.scss */
 .col-right {
   padding-top: 30px;
-  padding-bottom: 30px; }
+  padding-bottom: 30px;
+  padding-left: 7px;
+  padding-right: 0; }
 
-/* line 175, ../sass/style.scss */
+/* line 177, ../sass/style.scss */
 .more {
   background: #789f90;
   border-radius: 5px;
@@ -7648,25 +7650,33 @@ nav ul a:hover {
   font-size: 1em;
   text-transform: uppercase; }
 
-/* line 185, ../sass/style.scss */
-.more a:hover {
-  color: red; }
+/* line 187, ../sass/style.scss */
+.col-left a:hover {
+  color: #F5F5DC; }
 
-/* line 188, ../sass/style.scss */
+/* line 190, ../sass/style.scss */
+.gallery a:hover {
+  color: #F5F5DC; }
+
+/* line 193, ../sass/style.scss */
+.gallery-wrapper a:hover {
+  color: #789f90; }
+
+/* line 196, ../sass/style.scss */
 .worship {
   background: url(../images/worship.jpg) no-repeat;
   background-size: cover;
   padding: 45px 15px;
   text-align: center; }
 
-/* line 194, ../sass/style.scss */
+/* line 202, ../sass/style.scss */
 .worship h2 {
   color: #fff;
   padding-bottom: 10px;
   text-align: center;
   font-size: 2.5em; }
 
-/* line 200, ../sass/style.scss */
+/* line 208, ../sass/style.scss */
 .worship span {
   color: #fff;
   font-size: 1.5em;
@@ -7674,32 +7684,28 @@ nav ul a:hover {
   display: block;
   line-height: 1.5; }
 
-/* line 208, ../sass/style.scss */
+/* line 216, ../sass/style.scss */
 .gallery {
   text-align: center; }
 
-/* line 211, ../sass/style.scss */
+/* line 219, ../sass/style.scss */
 .gallery h2 {
-  padding-top: 30px;
-  text-align: center;
   padding-bottom: 10px;
-  display: none; }
+  text-align: center; }
 
-/* line 217, ../sass/style.scss */
+/* line 223, ../sass/style.scss */
 .gallery span {
   font-size: 1.5em;
-  padding-top: 30px;
-  display: block;
-  text-align: left;
-  padding-bottom: 30px; }
+  padding-bottom: 30px;
+  display: block; }
 
-/* line 224, ../sass/style.scss */
+/* line 228, ../sass/style.scss */
 .gallery ul {
   list-style: none;
   padding: 0;
   margin: 0; }
 
-/* line 229, ../sass/style.scss */
+/* line 233, ../sass/style.scss */
 .gallery ul li a {
   color: #789f90;
   display: block;
@@ -7707,7 +7713,7 @@ nav ul a:hover {
   padding-top: 25px;
   padding-bottom: 25px; }
 
-/* line 236, ../sass/style.scss */
+/* line 240, ../sass/style.scss */
 .mission {
   background: url(../images/metion-event.jpg) no-repeat;
   background-size: cover;
@@ -7716,7 +7722,7 @@ nav ul a:hover {
   display: block;
   padding-bottom: 30px; }
 
-/* line 244, ../sass/style.scss */
+/* line 248, ../sass/style.scss */
 .gallery-wrapper a {
   color: #789f90;
   font-size: 1.5em;
@@ -7724,7 +7730,11 @@ nav ul a:hover {
   padding-bottom: 25px;
   display: block; }
 
-/* line 251, ../sass/style.scss */
+/* line 255, ../sass/style.scss */
+.gallery-wrapper div {
+  padding: 0; }
+
+/* line 258, ../sass/style.scss */
 .mission {
   background: url(../images/metion-event.jpg) no-repeat 0 0;
   background-size: cover;
@@ -7732,7 +7742,7 @@ nav ul a:hover {
   margin-top: 30px;
   text-align: center; }
 
-/* line 258, ../sass/style.scss */
+/* line 265, ../sass/style.scss */
 .mission h2 {
   color: #fff;
   font-size: 2.5em;
@@ -7741,121 +7751,127 @@ nav ul a:hover {
   text-align: center;
   padding-bottom: 10px; }
 
-/* line 266, ../sass/style.scss */
+/* line 273, ../sass/style.scss */
 .mission span {
   color: #fff;
   font-size: 1.5em; }
 
-/* line 270, ../sass/style.scss */
+/* line 277, ../sass/style.scss */
 .courses {
   text-align: center; }
 
-/* line 273, ../sass/style.scss */
+/* line 280, ../sass/style.scss */
 .courses h2 {
-  padding-bottom: 10px; }
+  padding-bottom: 10px;
+  text-align: center; }
 
-/* line 276, ../sass/style.scss */
-.courses span {
-  font-size: 1.5em;
-  padding-bottom: 30px;
-  display: block; }
-
-/* line 281, ../sass/style.scss */
+/* line 284, ../sass/style.scss */
 .courses h3 {
   padding-bottom: 10px; }
 
-/* line 284, ../sass/style.scss */
+/* line 287, ../sass/style.scss */
 .courses span {
   font-size: 1.5em;
   display: block;
-  padding-top: 10px;
-  padding-bottom: 30px; }
-
-/* line 290, ../sass/style.scss */
-.courses p {
   padding-bottom: 30px; }
 
 /* line 292, ../sass/style.scss */
+.courses p {
+  padding-bottom: 30px; }
+
+/* line 295, ../sass/style.scss */
 .course-wrapper img {
   height: auto; }
 
-/* line 295, ../sass/style.scss */
+/* line 298, ../sass/style.scss */
+.course-wrapper div {
+  padding: 0; }
+
+/* line 301, ../sass/style.scss */
+.course h3 {
+  text-align: left; }
+
+/* line 304, ../sass/style.scss */
 .latest-posts h2 {
   color: #fff;
   padding-top: 30px;
   padding-bottom: 30px; }
 
-/* line 300, ../sass/style.scss */
+/* line 309, ../sass/style.scss */
+.latest-posts div {
+  padding: 10px; }
+
+/* line 312, ../sass/style.scss */
 .content a {
   color: #fff;
   text-align: left;
   display: block;
   padding-bottom: 7px; }
 
-/* line 306, ../sass/style.scss */
+/* line 318, ../sass/style.scss */
 .content span {
   text-align: left;
   color: #fff;
   display: block;
   font-size: 1.2em; }
 
-/* line 312, ../sass/style.scss */
+/* line 324, ../sass/style.scss */
 .content p {
   padding-bottom: 30px; }
 
-/* line 315, ../sass/style.scss */
+/* line 327, ../sass/style.scss */
 .address {
   padding-top: 30px; }
 
-/* line 318, ../sass/style.scss */
+/* line 330, ../sass/style.scss */
 .address p {
   color: #789f90;
   font-family: "museo-sans-rounded",sans-serif;
   text-align: center; }
 
-/* line 323, ../sass/style.scss */
+/* line 335, ../sass/style.scss */
 .address p a {
   color: #789f90;
   text-decoration: underline; }
 
-/* line 327, ../sass/style.scss */
+/* line 339, ../sass/style.scss */
 .social ul {
   list-style: none;
   margin: 0;
   padding: 0;
   text-align: center; }
 
-/* line 333, ../sass/style.scss */
+/* line 345, ../sass/style.scss */
 .social-media ul li {
   display: inline-block;
   margin-right: 10px; }
 
-/* line 337, ../sass/style.scss */
+/* line 349, ../sass/style.scss */
 .social-media ul li a {
   text-indent: -9999px;
   display: block;
   width: 52px;
   height: 52px; }
 
-/* line 343, ../sass/style.scss */
+/* line 355, ../sass/style.scss */
 .social-media {
   padding-top: 30px;
   padding-bottom: 30px; }
 
-/* line 347, ../sass/style.scss */
+/* line 359, ../sass/style.scss */
 .social-media ul li.facebook a {
   background: url(../images/facebook.jpg) no-repeat 0 0; }
 
-/* line 350, ../sass/style.scss */
+/* line 362, ../sass/style.scss */
 .social-media ul li.twitter a {
   background: url(../images/twt.jpg) no-repeat 0 0; }
 
-/* line 353, ../sass/style.scss */
+/* line 365, ../sass/style.scss */
 .social-media ul li.instagram a {
   background: url(../images/Instagram.jpg) no-repeat 0 0;
   text-align: center; }
 
-/* line 357, ../sass/style.scss */
+/* line 369, ../sass/style.scss */
 .address p {
   color: #789f90;
   font-size: 1.5em;
@@ -7864,89 +7880,93 @@ nav ul a:hover {
   margin: 0;
   padding-bottom: 5px; }
 
-/* line 365, ../sass/style.scss */
+/* line 377, ../sass/style.scss */
 .address a {
   color: #789f90;
   font-family: "museo-sans-rounded",sans-serif;
   font-size: 1em;
   text-decoration: underline; }
 
-/* line 372, ../sass/style.scss */
+/* line 384, ../sass/style.scss */
 .social-media {
   padding-top: 25px;
   padding-bottom: 30px; }
 
-/* line 376, ../sass/style.scss */
+/* line 388, ../sass/style.scss */
 .social-media .row div {
   display: inline-block;
   padding: 7px 3px;
   text-align: center; }
 
-/* line 382, ../sass/style.scss */
+/* line 394, ../sass/style.scss */
 .social-media {
   text-align: center; }
 
 @media (min-width: 768px) {
-  /* line 388, ../sass/style.scss */
+  /* line 400, ../sass/style.scss */
   .container:nth-child(2) {
     width: 100%; }
 
-  /* line 391, ../sass/style.scss */
+  /* line 403, ../sass/style.scss */
   h1 {
     font-size: 3em; }
 
-  /* line 394, ../sass/style.scss */
+  /* line 406, ../sass/style.scss */
   h2 {
     font-size: 2.5em;
     padding-top: 60px; }
 
-  /* line 398, ../sass/style.scss */
+  /* line 410, ../sass/style.scss */
   h3 {
     font-size: 2em; }
 
-  /* line 401, ../sass/style.scss */
+  /* line 413, ../sass/style.scss */
   .logo {
     background-size: 55px 55px;
     width: 55px;
     height: 55px; }
 
-  /* line 406, ../sass/style.scss */
+  /* line 418, ../sass/style.scss */
   nav ul a {
     padding: 23px 15px;
     font-size: 1.5em; }
 
-  /* line 410, ../sass/style.scss */
+  /* line 422, ../sass/style.scss */
   .menu {
     width: 42px;
     top: 20px; }
 
-  /* line 414, ../sass/style.scss */
+  /* line 426, ../sass/style.scss */
   .menu span {
     width: 22px; }
 
-  /* line 417, ../sass/style.scss */
+  /* line 429, ../sass/style.scss */
   .hero {
     padding: 120px 50px; }
 
-  /* line 420, ../sass/style.scss */
+  /* line 432, ../sass/style.scss */
   .col-left {
     float: left;
     width: 50%;
     padding-left: 0;
     text-align: left; }
 
-  /* line 426, ../sass/style.scss */
+  /* line 438, ../sass/style.scss */
   .col-right {
     float: right;
     width: 50%;
     padding-right: 0; }
 
-  /* line 431, ../sass/style.scss */
+  /* line 443, ../sass/style.scss */
   .worship {
     padding: 120px 50px;
-    margin-top: 40px; }
+    margin-top: 60px; }
 
-  /* line 435, ../sass/style.scss */
+  /* line 447, ../sass/style.scss */
+  .gallery h2 {
+    padding-top: 60px; }
+
+  /* line 450, ../sass/style.scss */
   .gallery-wrapper .row div {
     padding-left: 2%;
     padding-right: 2%;
@@ -7956,20 +7976,20 @@ nav ul a:hover {
     width: 50%;
     display: block; }
 
-  /* line 444, ../sass/style.scss */
+  /* line 459, ../sass/style.scss */
   .gallery .row div:nth-child(3) {
     clear: both; }
 
-  /* line 447, ../sass/style.scss */
+  /* line 462, ../sass/style.scss */
   .gallery-wrapper .row div img {
     margin: 0; }
 
-  /* line 450, ../sass/style.scss */
+  /* line 465, ../sass/style.scss */
   .mission {
     margin-top: 60px;
     padding: 100px 15px; }
 
-  /* line 454, ../sass/style.scss */
+  /* line 469, ../sass/style.scss */
   .course-wrapper div {
     float: left;
     width: 33.3%;
@@ -7977,41 +7997,41 @@ nav ul a:hover {
     margin: 0;
     padding: 1.5%; }
 
-  /* line 461, ../sass/style.scss */
+  /* line 476, ../sass/style.scss */
   .latest-posts h2 {
     padding-top: 60px; }
 
-  /* line 464, ../sass/style.scss */
+  /* line 479, ../sass/style.scss */
   .latest-posts div {
     float: left;
     width: 50%; }
 
-  /* line 468, ../sass/style.scss */
+  /* line 483, ../sass/style.scss */
   .social-media {
-    padding-right: 10px; }
+    padding-bottom: 60px; }
 
-  /* line 471, ../sass/style.scss */
+  /* line 486, ../sass/style.scss */
   .latest-posts div .content {
     width: 100%; }
 
-  /* line 474, ../sass/style.scss */
+  /* line 489, ../sass/style.scss */
   .content h3 {
     padding-bottom: 10px; }
 
-  /* line 477, ../sass/style.scss */
+  /* line 492, ../sass/style.scss */
   .address {
     padding-top: 60px;
     padding-left: 15px; } }
 @media (min-width: 992px) {
-  /* line 485, ../sass/style.scss */
+  /* line 500, ../sass/style.scss */
   .hero {
     padding: 230px 50px; }
 
-  /* line 488, ../sass/style.scss */
+  /* line 503, ../sass/style.scss */
   .menu {
     display: none; }
 
-  /* line 491, ../sass/style.scss */
+  /* line 506, ../sass/style.scss */
   nav ul {
     float: right;
     display: block;
@@ -8020,62 +8040,59 @@ nav ul a:hover {
     width: auto;
     padding-right: 15px; }
 
-  /* line 499, ../sass/style.scss */
+  /* line 514, ../sass/style.scss */
   ul li {
     display: inline-block; }
 
-  /* line 502, ../sass/style.scss */
+  /* line 517, ../sass/style.scss */
   .worship {
     margin-top: 60px;
     padding: 150px 50px; }
 
-  /* line 506, ../sass/style.scss */
+  /* line 521, ../sass/style.scss */
   .mission {
     margin-top: 60px;
     padding: 150px 50px; }
 
-  /* line 510, ../sass/style.scss */
-  .col-right {
-    padding: 0; }
-
-  /* line 513, ../sass/style.scss */
+  /* line 525, ../sass/style.scss */
   .gallery-wrapper .row div {
     width: 33.3%;
     display: block; }
 
-  /* line 517, ../sass/style.scss */
+  /* line 529, ../sass/style.scss */
   .gallery-wrapper .row div:nth-child(3) {
     display: block;
     clear: inherit; }
 
-  /* line 521, ../sass/style.scss */
+  /* line 533, ../sass/style.scss */
   .gallery-wrapper .row div:nth-child(4) {
     clear: both; }
 
-  /* line 524, ../sass/style.scss */
+  /* line 536, ../sass/style.scss */
   .latest-posts div {
     width: 25%; }
 
-  /* line 527, ../sass/style.scss */
+  /* line 539, ../sass/style.scss */
   .address {
     float: left;
     padding-bottom: 60px; }
 
-  /* line 531, ../sass/style.scss */
+  /* line 543, ../sass/style.scss */
   .social-media {
     float: right;
     padding-top: 60px;
-    padding-bottom: 60px; } }
+    padding-bottom: 60px;
+    padding-right: 10px; } }
 @media (min-width: 1200px) {
-  /* line 538, ../sass/style.scss */
+  /* line 551, ../sass/style.scss */
   h2, h3 {
     padding-top: 60px; }
 
-  /* line 541, ../sass/style.scss */
+  /* line 554, ../sass/style.scss */
   .container:nth-child(2) {
     width: 100%; }
 
-  /* line 544, ../sass/style.scss */
+  /* line 557, ../sass/style.scss */
   .container:nth-child(3),
   .container:nth-child(5),
   .container:nth-child(7),
@@ -8083,7 +8100,7 @@ nav ul a:hover {
     margin: auto;
     width: 1170px !important; }
 
-  /* line 551, ../sass/style.scss */
+  /* line 564, ../sass/style.scss */
   .latest-posts {
     margin: auto;
     width: 1170px; } }
